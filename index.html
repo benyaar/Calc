@@ -5,23 +5,33 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabs js</title>
+    <title>JS calc</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="select">
-        <select name="person" id="person">
-          <option selected disabled hidden>Выбери контакт</option>
-        </select>
-        <div class="container">
-          <div id="card"></div>
-          <div class="avatar">
-            <img id="imgsize" alt="" />
-          </div>
-        </div>
+    <div class="calculator">
+      <div class="calculator_screen">0</div>
+      <div class="buttons">
+       
+        <div data-value ='1' class="btn blackcircle number">1</div>
+        <div data-value ='2'class="btn blackcircle number">2</div>
+        <div data-value ='3'class="btn blackcircle number">3</div>
+        <div data-value ='+'class="btn yellowcircle act">+</div>
+        <div data-value ='4'class="btn blackcircle number">4</div>
+        <div data-value ='5'class="btn blackcircle number">5</div>
+        <div data-value ='6'class="btn blackcircle number">6</div>
+        <div data-value ='-'class="btn yellowcircle act">-</div>
+        <div data-value ='7'class="btn blackcircle number">7</div>
+        <div data-value ='8'class="btn blackcircle number">8</div>
+        <div data-value ='9'class="btn blackcircle number">9</div>
+        <div data-value ='*'class="btn yellowcircle act">*</div>
+        <div class="btn yellowcircle clear ">C</div>
+        <div data-value ='0'class="btn blackcircle number">0</div>
+        <div class="btn yellowcircle equal">=</div>
+        <div data-value ='/'class="btn yellowcircle act">/</div>
+ 
       </div>
-      <div class="color"></div>
     </div>
+   
     
 
     <script src="/script.js"></script>
